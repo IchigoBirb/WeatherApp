@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="Project2_222114X.AdditionalFeatures"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project2_222114X"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded"
+    KeyDown="Page_KeyDown"
+    Background="LightCyan">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <SplitView Name="MySplitView" DisplayMode="CompactOverlay"
+    IsPaneOpen="False"
+    CompactPaneLength="50" OpenPaneLength="150">
+            <SplitView.Pane>
+                <!--https://learn.microsoft.com/en-us/windows/apps/design/style/segoe-ui-symbol-font!-->
+                <StackPanel Background="DarkSlateBlue">
+                    <Button Name="HamburgerButton" Click="HamburgerButton_Click"
+                        FontFamily="Segoe MDL2 Assets"
+                        FontSize="18" Content="&#xE700;"
+                        Width="50" Height="50"
+                        Background="Transparent"/>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="Back"
+                        Click="Back_Click"
+                        FontFamily="Segoe MDL2 Assets"
+                        FontSize="18" Content="&#xE72B;"
+                        Width="50" Height="50"
+                        Background="Transparent"/>
+                        <TextBlock Text="Back" FontSize="18"
+                        VerticalAlignment="Center" />
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="Undo"
+                            Click="UndoButton_Click"
+                            FontFamily="Segoe MDL2 Assets"
+                            FontSize="18" Content="&#xE7A7;"
+                            Width="50" Height="50"
+                            Background="Transparent"/>
+                        <TextBlock Text="Undo" FontSize="18"
+                            VerticalAlignment="Center" />
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="Add"
+                            Click="Add_Click"
+                            FontFamily="Segoe MDL2 Assets"
+                            FontSize="18" Content="&#xE948;"
+                            Width="50" Height="50"
+                            Background="Transparent"/>
+                        <TextBlock Text="Add News" FontSize="18"
+                            VerticalAlignment="Center" />
+                    </StackPanel>
+
+                </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Grid>
+                    <!--https://learn.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.canvas?view=winrt-22621-->
+                    <Canvas Name="mainCanvas" Grid.Row="1" Background="DarkSlateBlue">
+
+                        <Image Source="images/nature.jpeg" Stretch="UniformToFill" Opacity="0.5"/>
+                        <MediaElement Name="mePlayer"/>
+                        <Image Source="images/coolart.jpg" Canvas.Top="100" Canvas.Left="0" Height="380" Width="800" Stretch="UniformToFill" Opacity="1"/>
+                        <Image Source="images/Delete.png" Name="TrashBin" Width="50" Height="50" Canvas.Left="700" Canvas.Top="430"/>
+                    </Canvas>
+                </Grid>
+            </SplitView.Content>
+        </SplitView>
+    </Grid>
+</Page>
