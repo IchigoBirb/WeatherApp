@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\App development and cloud services\\Project2_222114X\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|C:\\App development and cloud services\\Project2_222114X\\project2_222114x\\newsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\newsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|C:\\App development and cloud services\\Project2_222114X\\project2_222114x\\trivia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\trivia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|c:\\app development and cloud services\\project2_222114x\\project2_222114x\\aichatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\aichatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|C:\\App development and cloud services\\Project2_222114X\\project2_222114x\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|c:\\app development and cloud services\\project2_222114x\\project2_222114x\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|C:\\App development and cloud services\\Project2_222114X\\project2_222114x\\additionalfeatures.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\additionalfeatures.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|C:\\App development and cloud services\\Project2_222114X\\project2_222114x\\additionalfeatures.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\additionalfeatures.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|C:\\App development and cloud services\\Project2_222114X\\project2_222114x\\openweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\openweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|C:\\App development and cloud services\\Project2_222114X\\project2_222114x\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|C:\\App development and cloud services\\Project2_222114X\\project2_222114x\\greetings.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3BAD46A5-F9DB-4E4A-B5CE-020A70B63B34}|Project2_222114X\\Project2_222114X.csproj|solutionrelative:project2_222114x\\greetings.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AIChatbot.cs",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\AIChatbot.cs",
+              "RelativeDocumentMoniker": "Project2_222114X\\AIChatbot.cs",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\AIChatbot.cs",
+              "RelativeToolTip": "Project2_222114X\\AIChatbot.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T15:07:35.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Trivia.cs",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\Trivia.cs",
+              "RelativeDocumentMoniker": "Project2_222114X\\Trivia.cs",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\Trivia.cs",
+              "RelativeToolTip": "Project2_222114X\\Trivia.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwD0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T06:12:42.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsAPI.cs",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\NewsAPI.cs",
+              "RelativeDocumentMoniker": "Project2_222114X\\NewsAPI.cs",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\NewsAPI.cs",
+              "RelativeToolTip": "Project2_222114X\\NewsAPI.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAmwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T12:42:47.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OpenWeather.cs",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\OpenWeather.cs",
+              "RelativeDocumentMoniker": "Project2_222114X\\OpenWeather.cs",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\OpenWeather.cs",
+              "RelativeToolTip": "Project2_222114X\\OpenWeather.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T05:44:47.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\readme.txt",
+              "RelativeDocumentMoniker": "Project2_222114X\\readme.txt",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\readme.txt",
+              "RelativeToolTip": "Project2_222114X\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-07T09:04:35.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "greetings.txt",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\greetings.txt",
+              "RelativeDocumentMoniker": "Project2_222114X\\greetings.txt",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\greetings.txt",
+              "RelativeToolTip": "Project2_222114X\\greetings.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-07T08:38:15.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdditionalFeatures.xaml.cs",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\AdditionalFeatures.xaml.cs",
+              "RelativeDocumentMoniker": "Project2_222114X\\AdditionalFeatures.xaml.cs",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\AdditionalFeatures.xaml.cs",
+              "RelativeToolTip": "Project2_222114X\\AdditionalFeatures.xaml.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAawGEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T06:01:35.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdditionalFeatures.xaml",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\AdditionalFeatures.xaml",
+              "RelativeDocumentMoniker": "Project2_222114X\\AdditionalFeatures.xaml",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\AdditionalFeatures.xaml",
+              "RelativeToolTip": "Project2_222114X\\AdditionalFeatures.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-07T06:00:14.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Project2_222114X\\MainPage.xaml.cs",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\MainPage.xaml.cs",
+              "RelativeToolTip": "Project2_222114X\\MainPage.xaml.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAkwH4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T05:40:00.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Project2_222114X\\MainPage.xaml",
+              "ToolTip": "C:\\App development and cloud services\\Project2_222114X\\Project2_222114X\\MainPage.xaml",
+              "RelativeToolTip": "Project2_222114X\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-09T09:56:47.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

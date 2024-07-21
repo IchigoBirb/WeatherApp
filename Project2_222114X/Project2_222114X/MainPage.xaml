@@ -1,0 +1,169 @@
+﻿<Page
+    x:Class="Project2_222114X.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project2_222114X"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <FlipView>
+        <Grid>
+            <Image Source="images/Bgpng.png" Stretch="UniformToFill" Opacity="0.8"/>
+            <Grid Margin="20,20,10,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+
+                <MediaElement Name="mePlayer"/>
+                <!--Clock widget-->
+
+                <Border Margin="30,10,0,250" Padding="10" Background="LightCyan" CornerRadius="10">
+                    <StackPanel>
+                        <TextBlock x:Name="DateTB" FontFamily="Digital-7" FontSize="18" Foreground="DarkSlateBlue"/>
+                        <TextBlock Text="SINGAPORE [GMT+8]" FontSize="14" Foreground="DarkSlateBlue" />
+                        <TextBlock x:Name="DayTB"  FontFamily="Digital-7"  FontSize="15" Foreground="DarkSlateBlue"/>
+                        <!--https://www.dafont.com/digital-7.font-->
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock  x:Name="TIME" FontSize="50" FontFamily="Digital-7" Foreground="#FF8AE28A" TextAlignment="Center"/>
+                            <TextBlock  x:Name="M" FontSize="30" FontFamily="Digital-7" Foreground="#FF8AE28A" TextAlignment="Center" Padding="5,10,0,0"/>
+                        </StackPanel>
+                        <TextBlock x:Name="greet" FontSize="15" Foreground="DarkSlateBlue" Text="Morning, Jason" TextAlignment="Center"
+                            TextWrapping="Wrap" MaxWidth="300" MaxHeight="100" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Margin="0,10,5,0" Background="LightCyan" CornerRadius="10" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Right">
+                    <Button Click="Button_Click" Background="LightCyan">
+                        <Image Source="images/news.jpg" Height="50"/>
+                    </Button>
+                </Border>
+            </Grid>
+            <StackPanel Margin="0,200,0,5" Grid.RowSpan="2" >
+                <TextBlock Text="3-Day Forecast" FontSize="20" HorizontalAlignment="Center" Margin="310,0,0,10" Foreground="DarkSlateBlue" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <!--Current Weather widget-->
+                    <Border Background="Lightpink" Padding="0,0,0,40" CornerRadius="10" Margin="10,0,10,0">
+                        <StackPanel HorizontalAlignment="Center">
+                            <TextBlock Text="Current weather" FontSize="16" HorizontalAlignment="Center" Foreground="DarkSlateBlue"/>
+                            <Image x:Name="CWeatherIcon" Width="80" Height="80" Stretch="Uniform"/>
+                            <TextBlock x:Name="Current" FontSize="20" Foreground="DarkSlateBlue" HorizontalAlignment="Center"/>
+                            <StackPanel Margin="0,8,0,0">
+                                <TextBlock x:Name="cwinddir" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="crain" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="cwindspeed" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="chumidity" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="cpressure" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!--Day 1 Forecast-->
+                    <Border Background="Lightpink" Padding="0,0,0,10" CornerRadius="10" Margin="0,0,5,0" Grid.Column="1">
+                        <StackPanel>
+                            <StackPanel HorizontalAlignment="Center">
+                                <TextBlock x:Name="Day1" FontSize="16" HorizontalAlignment="Center" Foreground="DarkSlateBlue" />
+                                <Image x:Name="d1WeatherIcon" Width="80" Height="80" Stretch="Uniform"/>
+                                <TextBlock x:Name="d1Temp"  FontSize="25" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d1winddir" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d1rain" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d1windspeed" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d1humidity" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d1pressure" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!--Day 2 Forecast-->
+                    <Border Background="Lightpink" Padding="0,0,0,10" CornerRadius="10" Margin="0,0,5,0" Grid.Column="2">
+                        <StackPanel>
+                            <StackPanel HorizontalAlignment="Center">
+                                <TextBlock x:Name="Day2" FontSize="16" HorizontalAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <Image x:Name="d2WeatherIcon" Width="80" Height="80" Stretch="Uniform"/>
+
+                                <TextBlock x:Name="d2Temp"  FontSize="25" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d2winddir" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d2rain" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d2windspeed" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d2humidity" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d2pressure" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!--Day 3 Forecast-->
+                    <Border Background="Lightpink" Padding="0,0,0,10" CornerRadius="10" Margin="0,0,10,0" Grid.Column="3">
+                        <StackPanel>
+                            <StackPanel HorizontalAlignment="Center">
+                                <TextBlock x:Name="Day3" FontSize="16" HorizontalAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <Image x:Name="d3WeatherIcon" Width="80" Height="80" Stretch="Uniform"/>
+
+                                <TextBlock x:Name="d3Temp"  FontSize="25" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d3winddir" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d3rain" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d3windspeed" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d3humidity" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                                <TextBlock x:Name="d3pressure" TextAlignment="Center" Foreground="DarkSlateBlue"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        <Grid>
+            <Image Source="images/Bgnight.png" Stretch="UniformToFill" Opacity="0.5"/>
+            <!-- Alarm widget -->
+            <ScrollViewer Height="380" VerticalScrollBarVisibility="Auto">
+                <StackPanel Name="AlarmHolder">
+                    <TextBlock Text="Set Alarm" FontSize="20" Foreground="MediumPurple" HorizontalAlignment="Center"/>
+                    <Border Padding="10" CornerRadius="10" Background="Black" Width="450">
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="AddAlarmButton" Content="Add Alarm" Margin="0,0,20,0" VerticalAlignment="Center" Click="AddAlarmButton_Click" HorizontalAlignment="Center" Background ="Black" Foreground="MediumPurple"/>
+                            <StackPanel>
+                                <DatePicker x:Name="DateTimePicker" HorizontalAlignment="Center" Width="300"/>
+                                <TimePicker x:Name="AlarmTimePicker" HorizontalAlignment="Center" Width="300"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <Grid HorizontalAlignment="Center">
+            <Image Source="images/nature.jpeg" Stretch="UniformToFill" Opacity="0.4"/>
+            <Grid HorizontalAlignment="Center">
+                <Grid Background="LightSalmon" VerticalAlignment="Top">
+                    <TextBlock Text="RieAI" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" Foreground="Black"/>
+                </Grid>
+                <ScrollViewer x:Name="ChatScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Margin="10,10,10,50" >
+                    <StackPanel x:Name="ChatStackPanel" Margin="10"/>
+                </ScrollViewer>
+                <Grid Background="LightSalmon" VerticalAlignment="Bottom" Margin="0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox TextWrapping="Wrap" MaxWidth="300" x:Name="InputTextBox" Grid.Column="0" Margin="5" VerticalAlignment="Center" Foreground="Black"/>
+                    <Button Grid.Column="1" Content="Send" Margin="4" VerticalAlignment="Center" Click="AIResponse_click"/>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid>
+            <TextBlock x:Name="QuestionTextBlock" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="760" Height="100"/>
+            <StackPanel x:Name="ChoicesPanel" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="760"/>
+            <Button x:Name="SubmitButton" Content="Submit" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="760" Click="SubmitButton_Click"/>
+            <Button x:Name="FetchTriviaButton" Content="Fetch Trivia" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Width="760" Click="FetchTriviaButton_Click"/>
+            <TextBlock x:Name="Triviatb" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="10,350,0,0" VerticalAlignment="Top" Width="760" Height="100"></TextBlock>
+        </Grid>
+    </FlipView>
+</Page>
